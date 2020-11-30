@@ -7,6 +7,8 @@ John Dunne G00273895
 ## About this Repository
 This repository contains one single jupyter notebook called Tasks.ipynb which contains my solutions to four tasks that were assigned throughout the semester. Each task is contained within its own section of the notebook with the references I called upon for each task listed at the end of each section. 
 
+The assignment brief is contained in this repository in a document called assessment.pdf
+
 ## Difficulty displaying jupyter notebook on Github website
 Sometimes jupyter notebooks do not load on the Github website. If this happens you can copy and paste the URL of the notebook and paste in the below website which will display the notebook: https://nbviewer.jupyter.org/
 

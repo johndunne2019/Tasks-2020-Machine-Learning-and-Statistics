@@ -9,6 +9,16 @@ This repository contains one single jupyter notebook called Tasks.ipynb which co
 
 The assignment brief is contained in this repository in a document called assessment.pdf
 
+The four tasks are detailed below:
+
+1. October 5th, 2020: Write a Python function called sqrt2 that calculates and prints to the screen the square root of 2 to 100 decimal places.Your code should not depend on any module from the standard library or otherwise. You should research the task first and include references and a description of your algorithm.
+
+2. November 2nd, 2020: The Chi-squared test for independence is a statistical hypothesis test like a t-test. It is used to analyse whether two categorical variables are independent. The Wikipedia article gives the table below as an example [4], stating the Chi-squared value based on it is approximately 24.6. Use scipy.stats to verify this value and calculate the associated p value. You should include a short note with references justifying your analysis in a markdown cell.
+
+3. November 16th, 2020: The standard deviation of an array of numbers x is calculated using numpy as np.sqrt(np.sum((x - np.mean(x))**2)/len(x)) . However, Microsoft Excel has two different versions of the standard deviation calculation, STDEV.P and STDEV.S . The STDEV.P function performs the above calculation but in the STDEV.S calculation the division is by len(x)-1 rather than len(x) . Research these Excel functions, writing a note in a Markdown cell about the difference between them. Then use numpy to perform a simulation demonstrating that the STDEV.S calculation is a better estimate for the standard deviation of a population when performed on a sample. Note that part of this task is to figure out the terminology in the previous sentence.
+
+4. November 30th, 2020: Use scikit-learn to apply k-means clustering to Fisher’s famous Iris data set. You will easily obtain a copy of the data set online. Explain in a Markdown cell how your code works and how accurate it might be, and then explain how your model could be used to make predictions of species of iris.
+
 ## Difficulty displaying jupyter notebook on Github website
 Sometimes jupyter notebooks do not load on the Github website. If this happens you can copy and paste the URL of the notebook and paste in the below website which will display the notebook: https://nbviewer.jupyter.org/
 
